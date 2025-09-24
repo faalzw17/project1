@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed test</title>
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        color: #2c3e50;
+    }
+    .result{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .eror {
+        color: red;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h1>Speed Test</h1>
+    <button onclick="runSpeedTest( )">Mulai Test</button>
+    <div class="result" id="ping"></div>
+    <div class="result" id="download"></div>
+    <div class="result" id="upload"></div>
+    <div class="result" id="status"></div>    
+     <script src="script.js"></script>
+</body>
+</html>
